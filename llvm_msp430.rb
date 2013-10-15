@@ -11,7 +11,7 @@ class LlvmMsp430 <Formula
   KEG
 
   def download_strategy
-    UnsafeSubversionDownloadStrategy
+    CurlUnsafeDownloadStrategy
   end
 
   def install
